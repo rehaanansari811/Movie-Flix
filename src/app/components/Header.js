@@ -2,7 +2,7 @@ import styles from "@/app/styles/navbar.module.css"
 import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "@/app/components/Navbar";
+import Nav from "./Nav";
 
 const Header = () => {
     return (
@@ -13,7 +13,7 @@ const Header = () => {
                         <h2 className={styles.logo}>Movie Flix</h2>
                     </Link>
                 </div>
-                <Navbar />
+                <Nav />
             </header>
         </>
     );
